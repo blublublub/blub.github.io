@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 250px;
+}
+.red {
+    background-color: #ff424e;
+}
+
+.green {
+    background-color: #49c972;
+}
+
+.blue {
+    background-color: #6bf2d8;
+}
+.box{
+	height:250px;
+	text-align:left;
+	flex-basis:20%;
+}
+.flex-container > img{
+	height:250px;
+	flex-basis:20%;
+}
+P{
+	margin-left:10px;
+}
